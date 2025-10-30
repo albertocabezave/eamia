@@ -7,7 +7,7 @@ Después de estar 3 años PRESO en Venezuela les presento...
 "Un lenguaje sin un CUERPO que SIENTA y un MUNDO para interactuar, son solo un montón de símbolos vacios." 
 DeepSeek ;).
 
-La biología quizás no sea perfecta psra crear inteligencias rápidamente, pero nos está dando una pista y un metodo de como hacerlo que ya funcionó, solo debemos ser mas creativos e ingeniosos, aqui no hace falta que vengas con Títulos universitarios, puedes ser solo un investigador independiente, un estudiante o un curioso por aprender y preguntar.
+La biología quizás no sea perfecta para crear inteligencias rápidamente, pero nos está dando una pista y un metodo de como hacerlo que ya funcionó, solo debemos ser mas creativos e ingeniosos, aqui no hace falta que vengas con Títulos universitarios, puedes ser solo un investigador independiente, un estudiante o un curioso por aprender y preguntar.
 
 Se parte del uno de los posibles caminos reales para el desarrollo de una VERDADERA IA, una a la que podamos  algún día transferir nuestra mente o respondernos como manipular la física cuántica, y no a una que solo unos pocos puedan usar y comercializar.
 
