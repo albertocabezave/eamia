@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E.A.M.I.A.</title>
+    <style>
+        /* RESET BÁSICO */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        /* ESTILOS GENERALES */
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f4f4f4;
+        }
+        
+        /* HEADER */
+        header {
+            background-color: #2c3e50;
+            color: white;
+            padding: 1rem;
+            text-align: center;
+        }
+        
+        /* CONTENEDOR PRINCIPAL */
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 1rem;
+        }
+        
+        /* NAVEGACIÓN */
+        nav {
+            background-color: #34495e;
+            padding: 0.5rem;
+        }
+        
+        nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        
+        nav li {
+            margin: 0 1rem;
+        }
+        
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 0.5rem;
+            display: block;
+        }
+        
+        nav a:hover {
+            background-color: #1abc9c;
+            border-radius: 4px;
+        }
+        
+        /* CONTENIDO */
+        .content {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 1rem;
+            margin: 1rem 0;
+        }
+        
+        .card {
+            background-color: white;
+            border-radius: 5px;
+            padding: 1rem;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        
+        /* FOOTER */
+        footer {
+            background-color: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+            margin-top: 2rem;
+        }
+        
+        /* MEDIA QUERIES PARA RESPONSIVIDAD */
+        @media (min-width: 768px) {
+            .content {
+                grid-template-columns: repeat(2, 1fr);
+            }
+            
+            nav ul {
+                justify-content: flex-start;
+            }
+        }
+        
+        @media (min-width: 1024px) {
+            .content {
+                grid-template-columns: repeat(3, 1fr);
+            }
+        }
+        
+        /* ESTILOS PARA FORMULARIOS */
+        .form-group {
+            margin-bottom: 1rem;
+        }
+        
+        label {
+            display: block;
+            margin-bottom: 0.5rem;
+        }
+        
+        input, textarea, select {
+            width: 100%;
+            padding: 0.5rem;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+        
+        button {
+            background-color: #3498db;
+            color: white;
+            border: none;
+            padding: 0.7rem 1.5rem;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        
+        button:hover {
+            background-color: #2980b9;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>E.A.M.I.A</h1>
+        <p>Lista de documentos producidos por la investigación</p>
+        <p>(Esta es una plantilla de código generada por el procesador de texto y datos DeepSeek</br>
+    quien este interesado en modificarla puede sugerirlo) </p>
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="#" id="home-link">Inicio</a></li>
+            <li><a href="#" id="about-link">Acerca de</a></li>
+            <li><a href="#" id="contact-link">Contacto</a></li>
+        </ul>
+    </nav>
+    
+    <div class="container">
+        <main>
+            <div class="content">
+                <div class="card">
+                    <h2>Característica 1</h2>
+                    <p>Esta es una característica importante de nuestra aplicación.</p>
+                </div>
+                
+                <div class="card">
+                    <h2>Característica 2</h2>
+                    <p>Otra característica útil para los usuarios.</p>
+                </div>
+                
+                <div class="card">
+                    <h2>Característica 3</h2>
+                    <p>Una tercera característica que destaca nuestra aplicación.</p>
+                </div>
+            </div>
+            
+            <div class="card">
+                <h2>Formulario de contacto</h2>
+                <form id="contact-form">
+                    <div class="form-group">
+                        <label for="name">Nombre:</label>
+                        <input type="text" id="name" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="message">Mensaje:</label>
+                        <textarea id="message" rows="4" required></textarea>
+                    </div>
+                    
+                    <button type="submit">Enviar</button>
+                </form>
+            </div>
+        </main>
+    </div>
+    
+    <footer>
+        <p>&copy; 2023 Mi Aplicación Web. Todos los derechos reservados.</p>
+    </footer>
+
+    <script>
+        // CÓDIGO JAVASCRIPT
+        document.addEventListener('DOMContentLoaded', function() {
+            // Navegación entre secciones
+            document.getElementById('home-link').addEventListener('click', function(e) {
+                e.preventDefault();
+                alert('Navegando a Inicio');
+            });
+            
+            document.getElementById('about-link').addEventListener('click', function(e) {
+                e.preventDefault();
+                alert('Navegando a Acerca de');
+            });
+            
+            document.getElementById('contact-link').addEventListener('click', function(e) {
+                e.preventDefault();
+                document.getElementById('contact-form').scrollIntoView({ behavior: 'smooth' });
+            });
+            
+            // Manejo del formulario
+            document.getElementById('contact-form').addEventListener('submit', function(e) {
+                e.preventDefault();
+                
+                const name = document.getElementById('name').value;
+                const email = document.getElementById('email').value;
+                const message = document.getElementById('message').value;
+                
+                if (name && email && message) {
+                    alert(`Gracias ${name}, tu mensaje ha sido enviado. Te contactaremos en ${email} pronto.`);
+                    document.getElementById('contact-form').reset();
+                } else {
+                    alert('Por favor, completa todos los campos del formulario.');
+                }
+            });
+            
+            // Ejemplo de función adicional
+            function cambiarColorFondo() {
+                const colores = ['#f4f4f4', '#e8f4f8', '#f8f8e8', '#f0e8f8'];
+                const colorAleatorio = colores[Math.floor(Math.random() * colores.length)];
+                document.body.style.backgroundColor = colorAleatorio;
+            }
+            
+            // Cambiar color de fondo cada 30 segundos (opcional)
+            // setInterval(cambiarColorFondo, 30000);
+            
+            console.log('Aplicación cargada correctamente');
+        });
+    </script>
+</body>
+  </html>
