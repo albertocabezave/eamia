@@ -15,7 +15,7 @@ La biología quizás no sea perfecta para crear inteligencias rápidamente, pero
 
 Se parte del uno de los posibles caminos reales para el desarrollo de una VERDADERA IA, una a la que podamos  algún día transferir nuestra mente o respondernos como manipular la física cuántica, y no a una que solo unos pocos puedan usar y comercializar.
 
-No soy una corporación, soy un pensador crítico y un investigador insaciable, y si no tengo dinero, pero esta idea puede hacer temblar a las grandes compañías, en la union esta la fuerza 💪.
+No soy una corporación, soy un pensador crítico y un investigador insaciable, y si, no tengo dinero, pero esta idea puede hacer temblar a las grandes compañías, en la union esta la fuerza 💪.
 
 
 
