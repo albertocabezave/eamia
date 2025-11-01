@@ -1,9 +1,7 @@
 # E.A.M.I.A.
 
-Después de estar 3 años PRESO en Venezuela les presento...
+Después de estar 3 años PRESO les presento...
 
-                               🔽 
-                               
 E.A.M.I.A.: Evolución Asistida de una Máquina con Inteligencia Artificial (Investigación y desarrollo).
 
 Espero que se tomen en serio esto, ya que la "IA (G)" actual tiene un GRAVE PROBLEMA....
